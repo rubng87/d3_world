@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #487fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+svg {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#chart {
+    border: 1px solid black;
+    margin: 2rem auto;
+    width: 1000px;
+    height: 500px;
+}
+
+.dot {
+    stroke : #000;
+    stroke-width: 1px;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
